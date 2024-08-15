@@ -110,7 +110,7 @@ def playlist():
     Window.geometry('400x180')
     Window.grid_anchor('center')
     
-    Label(Window,text='Download Single Video',font = ("Times New Roman", 18)).grid(row=0,column=0)
+    Label(Window,text='Download Playlist',font = ("Times New Roman", 18)).grid(row=0,column=0)
     # Entry Frame
     frame_=Labelframe(Window,bootstyle='success',border=8,relief='sunken')
     frame_.grid(row=1,column=0)
